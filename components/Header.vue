@@ -1,10 +1,17 @@
 <template>
-  <div class="text-3xl font-bold">
-    City Club Members
+  <div class="text-lg font-bold flex w-full justify-center p-3 shadow">
+    <div>{{ text }}</div>
   </div>
 </template>
 
 <script setup>
+
+const props = defineProps({
+  text: {
+    type: String,
+    required: true,
+  }
+})
 
 </script>
 

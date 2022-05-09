@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header />
+    <Header text="City Club Members"/>
     homes
   </div>
 </template>
