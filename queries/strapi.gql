@@ -1,0 +1,12 @@
+query brand{
+  brand(id: "1") {
+    data {
+      attributes {
+        brandId
+        brandName
+        displayName
+      }
+    }
+  }
+}
+
