@@ -14,7 +14,9 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     public: {
-      GQL_HOST: 'http://localhost:1337/graphql' // overwritten by process.env.GQL_HOST
+      GQL_HOST: 'http://localhost:1337/graphql', // overwritten by process.env.GQL_HOST,
+      LOGIN_URL: process.env.LOGIN_URL || 'https://mryum.com',
+      FALLBACK_VENUE_ID: process.env.FALLBACK_VENUE_ID || 'cpc-testing',
     }
   },
 

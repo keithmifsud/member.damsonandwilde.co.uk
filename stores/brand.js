@@ -1,5 +1,4 @@
 import { defineStore } from 'pinia'
-import { resolve } from 'pathe'
 import { useAsyncData } from 'nuxt/app'
 
 export const useBrandStore = defineStore({
