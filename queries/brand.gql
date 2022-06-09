@@ -5,6 +5,8 @@ query brand($brandId : ID!){
         brandId
         brandName
         displayName
+        useTiers
+        canBookTable
       }
     }
   }
