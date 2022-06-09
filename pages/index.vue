@@ -1,7 +1,8 @@
 <template>
-  <div class="flex flex-col h-screen">
-    <Header :text="brandStore.brand.displayName"/>
+  <div class="flex flex-col min-h-screen">
+    <Header :text="brandStore.brand.displayName" :backTo="backTo"/>
     <main class="p-4 flex-grow bg-gray-200">Content</main>
+    <Footer />
   </div>
 </template>
 
@@ -14,12 +15,19 @@ import { useBrandStore } from '../stores/brand'
 import { useGuestStore } from '../stores/guest'
 import { useAsyncData } from 'nuxt/app'
 
+const config = useRuntimeConfig()
+
 definePageMeta({
   layout: "cityclub",
 });
 
 
 const brandStore = useBrandStore()
+const guestStore = useGuestStore()
+
+const backTo = {
+  url: config.LOGIN_URL + "?venue_id=" + guestStore.venueId
+}
 
 
 </script>

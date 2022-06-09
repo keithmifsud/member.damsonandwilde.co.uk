@@ -1,0 +1,11 @@
+query terms {
+  termsAndCondition {
+    data{
+      attributes{
+        PageTitle
+        PageContent
+      }
+    }
+  }
+}
+
