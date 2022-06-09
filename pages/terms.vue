@@ -6,6 +6,10 @@
 
 <script setup>
 
+definePageMeta({
+  layout: "cityclub",
+});
+
 import { useBrandStore } from '../stores/brand'
 
 const brandStore = useBrandStore()
