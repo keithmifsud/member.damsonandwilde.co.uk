@@ -7,18 +7,19 @@ export const useBrandStore = defineStore({
   state: () => {
     return {
       brand: null,
+      terms: null,
     }
   },
   actions: {
-    async retrieveBrand() {
+    async retrieveBrand(brandId) {
       try {
-        const { data }  = await useAsyncData('strapi', () => GqlBrand())
+        const { data }  = await useAsyncData('strapi', () => GqlBrand({brandId: brandId}))
         this.brand = data.value.brand.data.attributes
+        console.log('brand', this.brand)
       } catch (errors) {
         console.log(errors)
       }
-
-    }
+    },
   },
   getters: {}
 })

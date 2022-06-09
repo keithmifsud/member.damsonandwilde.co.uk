@@ -1,5 +1,5 @@
-query brand{
-  brand(id: "1") {
+query brand($brandId : ID!){
+  brand(id: $brandId) {
     data {
       attributes {
         brandId

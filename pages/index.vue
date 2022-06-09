@@ -39,8 +39,10 @@ if (!route.query.guest_id) {
       venueId,
   )
 }
+if (!brandStore.brand) {
+  brandStore.retrieveBrand(config.CMS_BRAND_ID)
+}
 
-brandStore.retrieveBrand()
 </script>
 
 <style scoped>
