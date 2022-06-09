@@ -1,0 +1,923 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+"""A list of supported ISO 3166-1 alpha-2 country codes"""
+enum CountryCode {
+  AD
+  AE
+  AF
+  AG
+  AI
+  AL
+  AM
+  AN
+  AO
+  AQ
+  AR
+  AS
+  AT
+  AU
+  AW
+  AZ
+  BA
+  BB
+  BD
+  BE
+  BF
+  BG
+  BH
+  BI
+  BJ
+  BM
+  BN
+  BO
+  BR
+  BS
+  BT
+  BV
+  BW
+  BY
+  BZ
+  CA
+  CC
+  CD
+  CF
+  CG
+  CH
+  CI
+  CK
+  CL
+  CM
+  CN
+  CO
+  CR
+  CU
+  CV
+  CX
+  CY
+  CZ
+  DE
+  DJ
+  DK
+  DM
+  DO
+  DZ
+  EC
+  EE
+  EG
+  EH
+  ER
+  ES
+  ET
+  FI
+  FJ
+  FK
+  FM
+  FO
+  FR
+  GA
+  GB
+  GD
+  GE
+  GF
+  GG
+  GH
+  GI
+  GL
+  GM
+  GN
+  GP
+  GQ
+  GR
+  GS
+  GT
+  GU
+  GW
+  GY
+  HK
+  HM
+  HN
+  HR
+  HT
+  HU
+  ID
+  IE
+  IL
+  IM
+  IN
+  IO
+  IQ
+  IR
+  IS
+  IT
+  JE
+  JM
+  JO
+  JP
+  KE
+  KG
+  KH
+  KI
+  KM
+  KN
+  KP
+  KR
+  KW
+  KY
+  KZ
+  LA
+  LB
+  LC
+  LI
+  LK
+  LR
+  LS
+  LT
+  LU
+  LV
+  LY
+  MA
+  MC
+  MD
+  ME
+  MG
+  MH
+  MK
+  ML
+  MM
+  MN
+  MO
+  MP
+  MQ
+  MR
+  MS
+  MT
+  MU
+  MV
+  MW
+  MX
+  MY
+  MZ
+  NA
+  NC
+  NE
+  NF
+  NG
+  NI
+  NL
+  NO
+  NP
+  NR
+  NU
+  NZ
+  OM
+  PA
+  PE
+  PF
+  PG
+  PH
+  PK
+  PL
+  PM
+  PN
+  PR
+  PS
+  PT
+  PW
+  PY
+  QA
+  RE
+  RO
+  RS
+  RU
+  RW
+  SA
+  SB
+  SC
+  SD
+  SE
+  SG
+  SH
+  SI
+  SJ
+  SK
+  SL
+  SM
+  SN
+  SO
+  SR
+  SS
+  ST
+  SV
+  SY
+  SZ
+  TC
+  TD
+  TF
+  TG
+  TH
+  TJ
+  TK
+  TL
+  TM
+  TN
+  TO
+  TR
+  TT
+  TV
+  TW
+  TZ
+  UA
+  UG
+  UM
+  US
+  UY
+  UZ
+  VA
+  VC
+  VE
+  VG
+  VI
+  VN
+  VU
+  WF
+  WS
+  YE
+  YT
+  ZA
+  ZM
+  ZW
+}
+
+"""A list of supported ISO-4217 currency codes"""
+enum Currency {
+  AED
+  AFN
+  ALL
+  AMD
+  ANG
+  AOA
+  ARS
+  AUD
+  AWG
+  AZN
+  BAM
+  BBD
+  BDT
+  BGN
+  BHD
+  BIF
+  BMD
+  BND
+  BOB
+  BOV
+  BRL
+  BSD
+  BTN
+  BWP
+  BYN
+  BZD
+  CAD
+  CDF
+  CHE
+  CHF
+  CHW
+  CLF
+  CLP
+  CNY
+  COP
+  COU
+  CRC
+  CUC
+  CUP
+  CVE
+  CZK
+  DJF
+  DKK
+  DOP
+  DZD
+  EGP
+  ERN
+  ETB
+  EUR
+  FJD
+  FKP
+  GBP
+  GEL
+  GHS
+  GIP
+  GMD
+  GNF
+  GTQ
+  GYD
+  HKD
+  HNL
+  HRK
+  HTG
+  HUF
+  IDR
+  ILS
+  INR
+  IQD
+  IRR
+  ISK
+  JMD
+  JOD
+  JPY
+  KES
+  KGS
+  KHR
+  KMF
+  KPW
+  KRW
+  KWD
+  KYD
+  KZT
+  LAK
+  LBP
+  LKR
+  LRD
+  LSL
+  LYD
+  MAD
+  MDL
+  MGA
+  MKD
+  MMK
+  MNT
+  MOP
+  MRU
+  MUR
+  MVR
+  MWK
+  MXN
+  MXV
+  MYR
+  MZN
+  NAD
+  NGN
+  NIO
+  NOK
+  NPR
+  NZD
+  OMR
+  PAB
+  PEN
+  PGK
+  PHP
+  PKR
+  PLN
+  PYG
+  QAR
+  RON
+  RSD
+  RUB
+  RWF
+  SAR
+  SBD
+  SCR
+  SDG
+  SEK
+  SGD
+  SHP
+  SLL
+  SOS
+  SRD
+  SSP
+  STN
+  SVC
+  SYP
+  SZL
+  THB
+  TJS
+  TMT
+  TND
+  TOP
+  TRY
+  TTD
+  TWD
+  TZS
+  UAH
+  UGX
+  USD
+  UYI
+  UYU
+  UZS
+  VEF
+  VND
+  VUV
+  WST
+  XCD
+  YER
+  ZAR
+  ZMW
+  ZWL
+}
+
+"""
+A date-time string at UTC, such as 2019-12-03T09:54:33Z, compliant with the date-time format.
+"""
+scalar DateTime
+
+input DateTimeFilter {
+  gt: DateTime
+  gte: DateTime
+  lt: DateTime
+  lte: DateTime
+}
+
+input GlobalIDFilter {
+  equals: String
+}
+
+type Guest implements Node {
+  """Identifies the date and time when the object was created."""
+  createdAt: DateTime!
+
+  """
+  The guest's email address. Note: Ensure the guest has opted in via marketingOptIns before using this email in a marketing campaign
+  """
+  email: String
+  id: ID!
+
+  """The guest's mobile number."""
+  mobile: String!
+
+  """The guest's full name."""
+  name: String
+}
+
+type GuestEdge {
+  cursor: String!
+  node: Guest!
+}
+
+type GuestMembership {
+  """The guest's email address."""
+  email: String!
+
+  """The guest's mobile number."""
+  mobile: String!
+
+  """The guest's full name."""
+  name: String
+
+  """Number of loyalty points the guest has."""
+  points: Int!
+
+  """The loyalty tier that the guest belongs to. For example "Staff"."""
+  tier: String
+
+  """
+  Total number of loyalty points the guest accumulated since joining the loyalty program (ignoring redemptions).
+  """
+  totalPointsAccrued: Int!
+}
+
+type GuestMembershipPayload {
+  guestMembership: GuestMembership!
+}
+
+input GuestMembershipPointsInput {
+  guestId: ID!
+  points: Int!
+
+  """
+  Explanation for why the points are being changed. For example "Signed up for pub quiz"
+  """
+  reason: String = ""
+}
+
+input GuestMembershipTierInput {
+  guestId: ID!
+  reason: String!
+
+  """The loyalty tier that the guest belongs to. For example "Staff"."""
+  tier: String
+}
+
+type LineItem implements Node {
+  """The line item's category."""
+  category: MenuItemCategory
+
+  """Identifies the date and time when the object was created."""
+  createdAt: DateTime!
+
+  """The line item's external POS group ID."""
+  externalPosGroupId: String
+
+  """The line item's external POS ID."""
+  externalPosId: String
+  id: ID!
+
+  """The line item's kind."""
+  kind: LineItemKind
+
+  """The menu associated with the line item."""
+  menu: Menu
+
+  """The line item's menu item name."""
+  name: String!
+
+  """The order associated with the line item."""
+  order: LineItemOrder
+
+  """The line item's parent ID if the line item is a child."""
+  parentId: String
+
+  """The line item's price in cents."""
+  priceInCents: Int!
+
+  """The line item's quantity."""
+  quantity: Int!
+
+  """The line item's type."""
+  type: LineItemType
+}
+
+type LineItemConnection {
+  edges: [LineItemEdge!]
+  pageInfo: PageInfo!
+  totalCount: Int!
+}
+
+type LineItemEdge {
+  cursor: String!
+  node: LineItem!
+}
+
+input LineItemFilter {
+  """
+  Filter by "food", "drink", "other", "main", "dessert", "non-alcoholic-drink", "alcoholic-drink", "sides-starter-appetizer", "merchandise", "kid" and "retail"
+  """
+  category: StringFilter
+  createdAt: DateTimeFilter
+
+  """Filter by "affirmation" and "reversal"."""
+  kind: StringFilter
+  menu: GlobalIDFilter
+
+  """
+  Filter by "menu_item", "modifier", "combo_item", "upsell_item", "virtual_item", "special_item", "delivery_fee", "gratuity", "card_fee", and "absolute_discount".
+  """
+  type: StringFilter
+}
+
+"""The line item's kind."""
+enum LineItemKind {
+  AFFIRMATION
+  REVERSAL
+}
+
+type LineItemOrder implements Node {
+  id: ID!
+}
+
+"""The line item's type."""
+enum LineItemType {
+  ABSOLUTE_DISCOUNT
+  CARD_FEE
+  COMBO_ITEM
+  DELIVERY_FEE
+  GRATUITY
+  MENU_ITEM
+  MODIFIER
+  SERVICE_CHARGE
+  SPECIAL_ITEM
+  UPSELL_ITEM
+  VIRTUAL_ITEM
+}
+
+type Location {
+  """The full address formatted in text."""
+  formattedAddress: String!
+
+  """The Place ID returned from the Google Maps Places API."""
+  googlePlaceId: String!
+
+  """The latitude of the location."""
+  latitude: Float!
+
+  """The longitude of the location."""
+  longitude: Float!
+}
+
+type MarketableGuest implements Node {
+  """Identifies the date and time when the object was created."""
+  createdAt: DateTime!
+
+  """The guest's email address."""
+  email: String
+  id: ID!
+
+  """The guest's mobile number."""
+  mobile: String!
+
+  """The guest's full name."""
+  name: String
+}
+
+type MarketingOptIn implements Node {
+  """Identifies the date and time when the object was created."""
+  createdAt: DateTime!
+  id: ID!
+
+  """The Marketable Guest associated with the opt-in."""
+  marketableGuest: MarketableGuest
+
+  """The menu associated with the opt-in."""
+  menu: Menu
+
+  """The marketing opt-in's message."""
+  message: String
+}
+
+type MarketingOptInConnection {
+  edges: [MarketingOptInEdge!]
+  pageInfo: PageInfo!
+  totalCount: Int!
+}
+
+type MarketingOptInEdge {
+  cursor: String!
+  node: MarketingOptIn!
+}
+
+input MarketingOptInFilter {
+  """The menu filter will return Marketing Opt-Ins for a particular menu"""
+  menu: GlobalIDFilter
+
+  """
+  The optedInAt filter will return Marketing Opt-Ins that match the specific date filters
+  """
+  optedInAt: DateTimeFilter
+}
+
+type Menu implements Node {
+  """The menu's two-letter country code defined in ISO 3166-1 alpha-2."""
+  countryCode: CountryCode!
+
+  """Identifies the date and time when the object was created."""
+  createdAt: DateTime!
+
+  """The menu's base currency code defined in ISO 4217."""
+  currency: Currency!
+  id: ID!
+
+  """The menu's name."""
+  name: String!
+
+  """The menu's slug."""
+  slug: String!
+
+  """The menu's base timezone."""
+  timezone: String
+}
+
+type MenuConnection {
+  edges: [MenuEdge!]
+  pageInfo: PageInfo!
+  totalCount: Int!
+}
+
+type MenuEdge {
+  cursor: String!
+  node: Menu!
+}
+
+"""The line item's menu item category."""
+enum MenuItemCategory {
+  ALCOHOLIC_DRINK
+  DESSERT
+  DRINK
+  FOOD
+  KID
+  MAIN
+  MERCHANDISE
+  NON_ALCOHOLIC_DRINK
+  OTHER
+  RETAIL
+  SIDES_STARTER_APPETIZER
+}
+
+type Mutation {
+  """API is not generally available."""
+  addGuestMembershipPoints(input: GuestMembershipPointsInput!): GuestMembershipPayload!
+
+  """API is not generally available."""
+  removeGuestMembershipPoints(input: GuestMembershipPointsInput!): GuestMembershipPayload!
+
+  """API is not generally available."""
+  setGuestMembershipTier(input: GuestMembershipTierInput!): GuestMembershipPayload!
+}
+
+interface Node {
+  id: ID!
+}
+
+type Order implements Node {
+  """The order's club membership number."""
+  clubMembershipNumber: String
+
+  """How many guests are at the table"""
+  coverCount: Int
+
+  """Identifies the date and time when the object was created."""
+  createdAt: DateTime!
+
+  """The menu's base currency code defined in ISO 4217."""
+  currency: Currency!
+
+  """The order's delivery option."""
+  deliveryOption: String
+
+  """The order's guest associated with the order."""
+  guest: Guest
+  id: ID!
+
+  """Whether or not tax is inclusive on the order."""
+  isTaxInclusive: Boolean!
+
+  """The order's line items."""
+  lineItems: [LineItem!]
+
+  """The customer's location associated with the order."""
+  location: Location
+
+  """The menu associated with the order."""
+  menu: Menu
+
+  """The order's notes."""
+  orderNotes: String
+
+  """The order's ordering type."""
+  orderingType: OrderingType!
+
+  """The order's window start date."""
+  orderingWindowStartDate: DateTime
+
+  """The order's payment processor."""
+  paymentProcessor: PaymentProcessorType
+
+  """The order's payment transaction ID."""
+  paymentTransactionId: String
+
+  """The order's pickup option."""
+  pickupOption: String
+
+  """The order's refund transaction ID."""
+  refundTransactionId: String
+
+  """The order's room name."""
+  roomName: String
+
+  """The order's room number."""
+  roomNumber: String
+
+  """The order's status."""
+  status: OrderStatus
+
+  """The order's table area."""
+  tableArea: String
+
+  """The order's table number."""
+  tableNumber: String
+
+  """The order's total gratuity in cents."""
+  totalGratuityInCents: Int
+
+  """The order's total in cents."""
+  totalInCents: Int!
+
+  """The order's total tax in cents."""
+  totalTaxInCents: Int
+}
+
+type OrderConnection {
+  edges: [OrderEdge!]
+  pageInfo: PageInfo!
+  totalCount: Int!
+}
+
+type OrderEdge {
+  cursor: String!
+  node: Order!
+}
+
+input OrderFilter {
+  createdAt: DateTimeFilter
+  menu: GlobalIDFilter
+}
+
+"""The order's status"""
+enum OrderStatus {
+  ACCEPTED
+  CANCELLED
+  COMPLETED
+  DRINKS_READY_FOR_PICKUP
+  FOOD_READY_FOR_PICKUP
+  PARTIALLY_REFUNDED
+  PENDING
+  READY_FOR_PICKUP
+  REFUNDED
+  REJECTED
+}
+
+"""Ordering types."""
+enum OrderingType {
+  BILL_PAY
+  CATERING
+  COUNTER
+  DELIVERY
+  DINE_IN
+  IN_VENUE
+  MENU
+  PICK_UP
+}
+
+type Organization implements Node {
+  """Identifies the date and time when the object was created."""
+  createdAt: DateTime!
+  id: ID!
+
+  """The organization's name."""
+  name: String!
+}
+
+type PageInfo {
+  endCursor: String
+  hasNextPage: Boolean!
+  hasPreviousPage: Boolean!
+  startCursor: String
+}
+
+"""Payment processor types."""
+enum PaymentProcessorType {
+  AFTERPAY
+  BRAINTREE
+  CASH
+  CHARGE_TO_ROOM
+  LOKE
+  PAYSTACK
+  PEACH
+  SNAPSCAN
+  STRIPE
+  UNPAID
+  WALLET
+}
+
+type Query {
+  """API is not generally available."""
+  guestMembership(guestId: ID!): GuestMembership!
+  lineItems(
+    after: String
+    before: String
+    filter: LineItemFilter
+
+    """Defaults to 20 if `last` is not provided"""
+    first: Int
+    last: Int
+    skip: Int
+  ): LineItemConnection!
+  marketingOptIns(
+    after: String
+    before: String
+    filter: MarketingOptInFilter
+
+    """Defaults to 20 if `last` is not provided"""
+    first: Int
+    last: Int
+    skip: Int
+  ): MarketingOptInConnection!
+  menu(id: ID!): Menu!
+  menus(
+    after: String
+    before: String
+
+    """Defaults to 20 if `last` is not provided"""
+    first: Int
+    last: Int
+    skip: Int
+  ): MenuConnection!
+  order(id: ID!): Order!
+  orders(
+    after: String
+    before: String
+    filter: OrderFilter
+
+    """Defaults to 20 if `last` is not provided"""
+    first: Int
+    last: Int
+    skip: Int
+  ): OrderConnection!
+  organization: Organization!
+}
+
+input StringFilter {
+  contains: String
+  equals: String
+  in: [String!]
+  not: String
+  notIn: [String!]
+}
