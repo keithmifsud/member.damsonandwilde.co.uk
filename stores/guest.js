@@ -1,21 +1,26 @@
 import { defineStore } from 'pinia'
-import { useAsyncData } from 'nuxt/app'
+import { useCookie } from '#app'
 
 export const useGuestStore = defineStore({
   id: 'guest-store',
 
   state: () => {
     return {
-      guestId: null,
+      guestId: useCookie('guestId').value,
       venueId: null,
     }
   },
   actions: {
-    initGuestState(guestId = null, venueId = null) {
-      this.guestId = guestId
+    initGuestState (guestId = null, venueId = null) {
+      const id = useCookie('guestId')
+      id.value = guestId
       this.venueId = venueId
     }
   },
-  getters: {}
+  getters: {
+    isAuthenticated () {
+      return this.guestId && this.guestId.value !== null
+    }
+  }
 })
 

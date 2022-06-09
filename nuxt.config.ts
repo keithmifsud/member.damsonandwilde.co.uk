@@ -37,7 +37,7 @@ export default defineNuxtConfig({
       },
       {
         rel: 'icon',
-        href: '/favicon.gif',
+        href: 'favicon.gif',
         type: 'image/png',
       }
     ]

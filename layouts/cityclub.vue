@@ -22,17 +22,28 @@ if (venueId === undefined) {
   venueId = config.FALLBACK_VENUE_ID
 }
 
-if (!route.query.guest_id) {
-  if (process.client) window.location.assign(
-      config.LOGIN_URL +
-      "?venue_id=" + venueId
-  );
+if (!guestStore.isAuthenticated) {
+  if (!route.query.guest_id) {
+    if (process.client) window.location.assign(
+        config.LOGIN_URL +
+        "?venue_id=" + venueId
+    );
+  } else {
+    guestStore.initGuestState(
+        route.query.guest_id,
+        venueId,
+    )
+  }
 } else {
-  guestStore.initGuestState(
-      route.query.guest_id,
-      venueId,
-  )
+  if (guestStore.guestId !== route.query.guest_id) {
+    guestStore.initGuestState(
+        route.query.guest_id,
+        venueId,
+    )
+  }
 }
+
+
 if (!brandStore.brand) {
   brandStore.retrieveBrand(config.CMS_BRAND_ID)
 }
